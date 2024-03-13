@@ -1,0 +1,99 @@
+.pill-nav a {
+   
+    color: black;
+    text-align: center;
+   padding-left: 300px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    gap:5px;
+  }
+  .image{
+    width: 8%;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  }
+  .column {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 50px;
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+padding-top: 20px;
+  }
+  .brands{
+    display: flex;
+    gap:50px
+  }
+  .vases{
+    display: flex;
+}
+.vases2{
+  display: flex;
+}
+.vases3{
+  display: flex;
+}
+button{
+  color:white;
+  background-color: green;
+}
+p{
+  color: green;
+  padding-left: 500px;
+}
+#page2{
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+ 
+
+  }
+  h6{
+    font-size: 30px;
+  }
+  #big-footer{
+    display: flex;
+    background-color:white;
+    color: black;
+    gap: 250px;
+     }
+  .letter{
+   margin-right: 40px;
+  }
+
+  
+  .pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  @media screen and (min-width:375px) and (max-width:768px) {
+    .pill-nav a{
+    padding-left: 40px;
+    font-size:17px;
+    gap:1px;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 10% 10%;
+      }
+      .column {
+        float: left;
+        width: 10%;
+        padding-left: 40px;
+        padding-top: 50px;
+        
+      }
+  }
